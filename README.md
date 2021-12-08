@@ -1,7 +1,7 @@
 
 # Post Contributers [rtCamp Test]
 
-This plugin is is test task assigned by rTcamp, that will add a metabox in admin 
+This plugin is is test task assigned by rtCamp, that will add a metabox in admin 
 side on Add/Edit post page, It will have list of authors will checkbox. Selected
 authors will be displayed on the front-end on single post page.
 
