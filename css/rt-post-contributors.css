@@ -1,0 +1,42 @@
+/**
+ * Post Contributors section styles for front-end
+ *
+*/
+.rtcamp_contributers {
+	color: #555;
+	background-color: #fff;
+	box-shadow: 0 0 5px 1px #ccc;
+	border-radius: 5px;
+	padding: 10px 15px;
+}
+.rtcamp_contributers h2 {
+	font-size: 2rem;
+	font-weight: 600;
+}
+.rtcamp_contributers ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.rtcamp_contributers ul li {
+	flex: auto;
+	width: 33%;
+}
+.rtcamp_contributers ul li .avatar {
+	max-width: 50px;
+	border-radius: 100%;
+}
+.rtcamp_contributers ul li a {
+	display: inline-block;
+	width: 50%;
+	padding: 1rem;
+	text-decoration: none;
+}
+@media screen and (max-width:768px) {
+	.rtcamp_contributers ul li {
+		width: 100%;
+	}	
+}
