@@ -1,38 +1,43 @@
-# wp-starter
 
-This is a Github [template repo](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-template-repository) with just a readme file that you are reading right now and a magical `.github` folder which contains [Github Actions](https://github.com/features/actions) that automatically check your code against [WordPress Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/).
+# Post Contributers [rtCamp Test]
 
-As you are here, you are most likely looking to work with rtCamp where code quality is very important to us. But even if you have no intention to join rtCamp, you are free to use this repo and automated checks present in it, to improve your WordPress coding skill. 
+This plugin is is test task assigned by rtCamp, that will add a metabox in admin 
+side on Add/Edit post page, It will have list of authors will checkbox. Selected
+authors will be displayed on the front-end on single post page.
 
-## Usage
+## Installation
 
-There are three ways to use this template repo:
+Upload the plugin in /wp-content/plugins/ folder of your website.                       
+Navigate to *Plugins > Installed Plugins*, find *Post Contibuters* from list and click on Activate.
 
-### 1. Using Github Classroom Assignment Link
+    
+## Usage/Examples
 
-1. If you are looking to work with rtCamp, it's better to start [using this assignment link](https://classroom.github.com/a/sC4KV_YZ).
-2. When you open the link, Github will prompt you to "Accept this assignment". 
-3. Clicking the "Accept..." button creates a private copy of this repo to which you and rtCamp's evaluators will have access. Your access level for the repo will be admin-level.
-4. You are expected to push all your codes to this new repo. Make sure you do not touch `.github` folder accidentally as it can break the magic.
-5. If you have developed any theme or plugin codes in the past, you are free to push those codes in your private repo. 
-6. When pushing existing large code-base, we request you to commit them in chunks — ideally one PHP file at a time. You can commit all non-PHP files at once as rtBot only checks PHP codes at the moment. It is yet to [Learn JavaScript Deeply](https://wesbos.com/learn-javascript)!
+After activating it will add a metabox on Add/Edit post page in admin panel as shown in the screenshot below.
+Selected authors list will appear on the from-end on single post page.
 
-**Advantages**
-1. You will not have to configure anything. You can just accept the assignment from the link and start pushing your codes right away. 
-2. As you are repo-admin for your copy, at any time, you can move the repo to your personal space. After all, you should have right over your code. 
 
-### 2. "Use this template" option 
+## Screenshots
+Admin Panel:
+![Admin Panel](https://nimbus-screenshots.s3.amazonaws.com/s/2418ad9f89c68b6bc8ee1ed07ce13e36.png)
 
-1. You can click "Use this template" button or [visit this link](https://github.com/rtlearn/wp-starter/generate)
-2. You will be prompted to select the name/destination for new repo. 
-3. Please note that you may need to configure automated code review yourself. If you do not, your assignment may not be considered for review.
-   
-### 3. Clone or Fork as a normal repo
+Front-end Single Post:
+![Front-end Single Post](https://nimbus-screenshots.s3.amazonaws.com/s/7311aab2f1b025385a3312b2aebd2d46.png)
 
-You are free to do whatever you would like to do with this repo. Please note that you may need to configure automated code review yourself.
+## Demo
 
-## Automated PHPCS checks
-1. The [coding standard rulest](phpcs.xml) in the automated PHPCS checks are configured to check database, security, and basic code analysis related checks mainly. [Ref. to list of rulesets](https://github.com/WordPress/WordPress-Coding-Standards#rulesets).
-2. It will not check for inline code comments, code formatting, and spacing issues, those checks have been excluded. But it is good to have these as well in your code.
-3. [This](https://learn.rtcamp.com/lessons/coding-standards-and-best-practices/) is a good starting point for understanding the WordPress Coding Standards.
-4. [Guide](https://github.com/WordPress/WordPress-Coding-Standards#using-phpcs-and-wpcs-from-within-your-ide) to setup the WordPress Coding Standard checks in your IDE.
+http://khanamir.me/homework/rtcamp/
+
+#### Username: demo Password: demo
+
+
+
+## Authors
+
+- [@madmak787](https://www.github.com/madmak787)
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
