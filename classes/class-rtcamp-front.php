@@ -36,7 +36,7 @@ if ( ! class_exists( 'RTCAMP_Front' ) && defined( 'ABSPATH' ) ) {
 				$rt_contibuters = get_post_meta( $post->ID, '_post_contributers', true );
 				if ( is_array( $rt_contibuters ) ) {
 					$html  = '<div class="rtcamp_contributers"><h2>Contributors</h2>';
-					$html .= '<ul>';
+					$html .= '<ul class="rtcamp_contributers_list">';
 					foreach ( $rt_contibuters as $author_id ) {
 						$author     = get_user_by( 'ID', $author_id );
 						$avatar     = get_avatar( $author_id );
